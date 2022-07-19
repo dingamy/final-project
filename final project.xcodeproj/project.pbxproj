@@ -20,6 +20,10 @@
 		7B19708D2887576A007534E2 /* featureTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B19708C2887576A007534E2 /* featureTwoViewController.swift */; };
 		7B19708F28875787007534E2 /* featureThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B19708E28875787007534E2 /* featureThreeViewController.swift */; };
 		7B197091288757A4007534E2 /* hotlinesAndResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B197090288757A4007534E2 /* hotlinesAndResourcesViewController.swift */; };
+		7B1970B628876449007534E2 /* anxietyInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1970B528876449007534E2 /* anxietyInfoViewController.swift */; };
+		7B1970B828876463007534E2 /* panicAttacksInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1970B728876463007534E2 /* panicAttacksInfoViewController.swift */; };
+		7B1970BA2887648F007534E2 /* differenceAnxietyPanicAttackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1970B92887648F007534E2 /* differenceAnxietyPanicAttackViewController.swift */; };
+		7B1970BC288764AE007534E2 /* learnEvenMoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1970BB288764AE007534E2 /* learnEvenMoreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +42,10 @@
 		7B19708C2887576A007534E2 /* featureTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = featureTwoViewController.swift; sourceTree = "<group>"; };
 		7B19708E28875787007534E2 /* featureThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = featureThreeViewController.swift; sourceTree = "<group>"; };
 		7B197090288757A4007534E2 /* hotlinesAndResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hotlinesAndResourcesViewController.swift; sourceTree = "<group>"; };
+		7B1970B528876449007534E2 /* anxietyInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = anxietyInfoViewController.swift; sourceTree = "<group>"; };
+		7B1970B728876463007534E2 /* panicAttacksInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = panicAttacksInfoViewController.swift; sourceTree = "<group>"; };
+		7B1970B92887648F007534E2 /* differenceAnxietyPanicAttackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = differenceAnxietyPanicAttackViewController.swift; sourceTree = "<group>"; };
+		7B1970BB288764AE007534E2 /* learnEvenMoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learnEvenMoreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +81,11 @@
 				7B19706D28874D81007534E2 /* AppDelegate.swift */,
 				7B19706F28874D81007534E2 /* SceneDelegate.swift */,
 				7B19707128874D81007534E2 /* ViewController.swift */,
+				7B1970B528876449007534E2 /* anxietyInfoViewController.swift */,
+				7B1970B728876463007534E2 /* panicAttacksInfoViewController.swift */,
 				7B19707328874D81007534E2 /* Main.storyboard */,
+				7B1970BB288764AE007534E2 /* learnEvenMoreViewController.swift */,
+				7B1970B92887648F007534E2 /* differenceAnxietyPanicAttackViewController.swift */,
 				7B197090288757A4007534E2 /* hotlinesAndResourcesViewController.swift */,
 				7B19708E28875787007534E2 /* featureThreeViewController.swift */,
 				7B19708C2887576A007534E2 /* featureTwoViewController.swift */,
@@ -159,7 +171,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B1970BA2887648F007534E2 /* differenceAnxietyPanicAttackViewController.swift in Sources */,
 				7B19707228874D81007534E2 /* ViewController.swift in Sources */,
+				7B1970BC288764AE007534E2 /* learnEvenMoreViewController.swift in Sources */,
 				7B19708F28875787007534E2 /* featureThreeViewController.swift in Sources */,
 				7B197091288757A4007534E2 /* hotlinesAndResourcesViewController.swift in Sources */,
 				7B1970852887524F007534E2 /* checkInViewController.swift in Sources */,
@@ -167,6 +181,8 @@
 				7B19706E28874D81007534E2 /* AppDelegate.swift in Sources */,
 				7B19707828874D81007534E2 /* final_project.xcdatamodeld in Sources */,
 				7B19707028874D81007534E2 /* SceneDelegate.swift in Sources */,
+				7B1970B828876463007534E2 /* panicAttacksInfoViewController.swift in Sources */,
+				7B1970B628876449007534E2 /* anxietyInfoViewController.swift in Sources */,
 				7B19708D2887576A007534E2 /* featureTwoViewController.swift in Sources */,
 				7B1970872887525F007534E2 /* informationViewController.swift in Sources */,
 			);

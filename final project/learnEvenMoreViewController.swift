@@ -1,5 +1,5 @@
 //
-//  checkInViewController.swift
+//  learnEvenMoreViewController.swift
 //  final project
 //
 //  Created by Amy Ding on 2022-07-19.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class checkInViewController: UIViewController {
+class learnEvenMoreViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -15,6 +15,7 @@ class checkInViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+
     /*
     // MARK: - Navigation
 
