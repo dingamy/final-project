@@ -16,6 +16,10 @@
 		7B19707D28874D82007534E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B19707B28874D82007534E2 /* LaunchScreen.storyboard */; };
 		7B1970852887524F007534E2 /* checkInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1970842887524F007534E2 /* checkInViewController.swift */; };
 		7B1970872887525F007534E2 /* informationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1970862887525F007534E2 /* informationViewController.swift */; };
+		7B19708B28875743007534E2 /* featureOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B19708A28875743007534E2 /* featureOneViewController.swift */; };
+		7B19708D2887576A007534E2 /* featureTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B19708C2887576A007534E2 /* featureTwoViewController.swift */; };
+		7B19708F28875787007534E2 /* featureThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B19708E28875787007534E2 /* featureThreeViewController.swift */; };
+		7B197091288757A4007534E2 /* hotlinesAndResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B197090288757A4007534E2 /* hotlinesAndResourcesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,10 @@
 		7B19707E28874D82007534E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B1970842887524F007534E2 /* checkInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkInViewController.swift; sourceTree = "<group>"; };
 		7B1970862887525F007534E2 /* informationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = informationViewController.swift; sourceTree = "<group>"; };
+		7B19708A28875743007534E2 /* featureOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = featureOneViewController.swift; sourceTree = "<group>"; };
+		7B19708C2887576A007534E2 /* featureTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = featureTwoViewController.swift; sourceTree = "<group>"; };
+		7B19708E28875787007534E2 /* featureThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = featureThreeViewController.swift; sourceTree = "<group>"; };
+		7B197090288757A4007534E2 /* hotlinesAndResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hotlinesAndResourcesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +74,10 @@
 				7B19706F28874D81007534E2 /* SceneDelegate.swift */,
 				7B19707128874D81007534E2 /* ViewController.swift */,
 				7B19707328874D81007534E2 /* Main.storyboard */,
+				7B197090288757A4007534E2 /* hotlinesAndResourcesViewController.swift */,
+				7B19708E28875787007534E2 /* featureThreeViewController.swift */,
+				7B19708C2887576A007534E2 /* featureTwoViewController.swift */,
+				7B19708A28875743007534E2 /* featureOneViewController.swift */,
 				7B1970842887524F007534E2 /* checkInViewController.swift */,
 				7B1970862887525F007534E2 /* informationViewController.swift */,
 				7B19707928874D82007534E2 /* Assets.xcassets */,
@@ -148,10 +160,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B19707228874D81007534E2 /* ViewController.swift in Sources */,
+				7B19708F28875787007534E2 /* featureThreeViewController.swift in Sources */,
+				7B197091288757A4007534E2 /* hotlinesAndResourcesViewController.swift in Sources */,
 				7B1970852887524F007534E2 /* checkInViewController.swift in Sources */,
+				7B19708B28875743007534E2 /* featureOneViewController.swift in Sources */,
 				7B19706E28874D81007534E2 /* AppDelegate.swift in Sources */,
 				7B19707828874D81007534E2 /* final_project.xcdatamodeld in Sources */,
 				7B19707028874D81007534E2 /* SceneDelegate.swift in Sources */,
+				7B19708D2887576A007534E2 /* featureTwoViewController.swift in Sources */,
 				7B1970872887525F007534E2 /* informationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

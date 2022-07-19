@@ -63,10 +63,59 @@
         <!--Check In View Controller-->
         <scene sceneID="c0c-j6-a0b">
             <objects>
-                <viewController id="Qy7-oO-C9D" customClass="checkInViewController" customModule="final_project" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="Qy7-oO-C9D" customClass="checkInViewController" customModule="final_project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="L7g-NW-FzO">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Safe Zone" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O1p-Cl-Q0L">
+                                <rect key="frame" x="120" y="44" width="174" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KMn-as-itV">
+                                <rect key="frame" x="115" y="195" width="188" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Words of Encouragement"/>
+                                <connections>
+                                    <action selector="featureOneButton:" destination="Qy7-oO-C9D" eventType="touchUpInside" id="XV5-Je-fpk"/>
+                                    <segue destination="fsD-4f-r4A" kind="show" id="xSs-Zq-k0j"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gbC-eY-MBP">
+                                <rect key="frame" x="113" y="301" width="189" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Need a distraction?"/>
+                                <connections>
+                                    <action selector="featureTwoButton:" destination="Qy7-oO-C9D" eventType="touchUpInside" id="1I7-0v-4R0"/>
+                                    <segue destination="EIL-Z0-NYJ" kind="show" id="u8g-8I-DhN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2sl-Mc-sUB">
+                                <rect key="frame" x="114" y="395" width="189" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Self-care Checklist"/>
+                                <connections>
+                                    <action selector="featureThreeButton:" destination="Qy7-oO-C9D" eventType="touchUpInside" id="qyX-DH-fPu"/>
+                                    <segue destination="osg-as-RSm" kind="show" id="Z1W-gg-ubg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ppF-Sh-Vxd">
+                                <rect key="frame" x="113" y="507" width="190" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Hotlines/Other Resources"/>
+                                <connections>
+                                    <action selector="hotlinesButton:" destination="Qy7-oO-C9D" eventType="touchUpInside" id="kKa-Ac-RRX"/>
+                                    <segue destination="0SV-mr-haf" kind="show" id="sRr-hQ-eLW"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="e8b-W3-pBM"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -74,14 +123,78 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Lf-eG-wvQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="755" y="-627"/>
+            <point key="canvasLocation" x="753.62318840579712" y="-627.45535714285711"/>
+        </scene>
+        <!--Feature One View Controller-->
+        <scene sceneID="QuJ-ee-3hy">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="fsD-4f-r4A" customClass="featureOneViewController" customModule="final_project" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uhO-pW-G1x">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="xal-im-POO"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="QPS-EQ-DL1"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4RG-RJ-ReM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1907" y="-1212"/>
+        </scene>
+        <!--Feature Three View Controller-->
+        <scene sceneID="ocM-kL-LfN">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="osg-as-RSm" customClass="featureThreeViewController" customModule="final_project" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dQu-PZ-rQb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="NXT-RI-dVf"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="jpq-7f-Xdg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uxa-ge-w3m" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1907" y="-489"/>
+        </scene>
+        <!--Hotlines And Resources View Controller-->
+        <scene sceneID="OPu-dP-mgq">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="0SV-mr-haf" customClass="hotlinesAndResourcesViewController" customModule="final_project" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CbB-TI-Cq1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Zh0-0I-OS2"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="OIb-9B-I7P"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Deg-U7-sFf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2725" y="-490"/>
+        </scene>
+        <!--Feature Two View Controller-->
+        <scene sceneID="lYq-K8-te9">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="EIL-Z0-NYJ" customClass="featureTwoViewController" customModule="final_project" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EYc-bX-zeM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="gID-BU-FbV"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Mnz-NQ-Cpd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LhU-qc-Z5R" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2725" y="-1212"/>
         </scene>
         <!--Information View Controller-->
         <scene sceneID="V0Q-2N-5fW">
             <objects>
-                <viewController id="3Cy-gO-WGr" customClass="informationViewController" customModule="final_project" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="3Cy-gO-WGr" customClass="informationViewController" customModule="final_project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Bsj-C5-hii">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="iPZ-ES-DTm"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>

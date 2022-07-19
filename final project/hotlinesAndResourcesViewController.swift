@@ -1,5 +1,5 @@
 //
-//  checkInViewController.swift
+//  hotlinesAndResourcesViewController.swift
 //  final project
 //
 //  Created by Amy Ding on 2022-07-19.
@@ -7,23 +7,15 @@
 
 import UIKit
 
-class checkInViewController: UIViewController {
+class hotlinesAndResourcesViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-    @IBAction func featureOneButton(_ sender: UIButton) {
-    }
     
-    @IBAction func featureTwoButton(_ sender: UIButton) {
-    }
-    @IBAction func featureThreeButton(_ sender: UIButton) {
-    }
-    
-    @IBAction func hotlinesButton(_ sender: UIButton) {
-    }
+
     /*
     // MARK: - Navigation
 
