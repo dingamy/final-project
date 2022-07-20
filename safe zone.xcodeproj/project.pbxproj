@@ -62,7 +62,7 @@
 		7B19706128874D81007534E2 = {
 			isa = PBXGroup;
 			children = (
-				7B19706C28874D81007534E2 /* final project */,
+				7B19706C28874D81007534E2 /* safe zone */,
 				7B19706B28874D81007534E2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -75,7 +75,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7B19706C28874D81007534E2 /* final project */ = {
+		7B19706C28874D81007534E2 /* safe zone */ = {
 			isa = PBXGroup;
 			children = (
 				7B19706D28874D81007534E2 /* AppDelegate.swift */,
@@ -97,7 +97,7 @@
 				7B19707E28874D82007534E2 /* Info.plist */,
 				7B19707628874D81007534E2 /* final_project.xcdatamodeld */,
 			);
-			path = "final project";
+			path = "safe zone";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +135,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7B19706528874D81007534E2 /* Build configuration list for PBXProject "final project" */;
+			buildConfigurationList = 7B19706528874D81007534E2 /* Build configuration list for PBXProject "safe zone" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -383,7 +383,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7B19706528874D81007534E2 /* Build configuration list for PBXProject "final project" */ = {
+		7B19706528874D81007534E2 /* Build configuration list for PBXProject "safe zone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7B19707F28874D82007534E2 /* Debug */,
